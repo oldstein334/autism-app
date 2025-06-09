@@ -7,7 +7,7 @@ import os
 from PIL import Image
 
 # Load model CNN
-model = load_model('model_autism.h5')  # Ganti dengan nama file modelmu
+model = load_model('models/model_autism.h5') # Ganti dengan nama file modelmu
 
 st.title("Deteksi Autisme pada Anak Melalui Gambar Wajah")
 
